@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- AOSP -->
+  <remote name="aosp"
+          fetch="https://android.googlesource.com"
+          sync-c="true"
+          sync-tags="false"
+          review="https://android-review.googlesource.com/"
+          revision="refs/tags/android-15.0.0_r1"/>
+
+  <!-- CLO -->
+  <remote name="clo-la"
+          fetch="https://git.codelinaro.org/clo/la"
+          sync-c="true"
+          sync-tags="false" />
+
+  <default remote="clo-la"/>
+  
+  <include name="system.xml"/>
+  <include name="vendor.xml"/>
+
+ <!-- Github remote -->
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <remote name="404"
+          fetch="https://github.com/P-404/"
+          revision="vito" />
+
+  <remote name="404-gitlab"
+          fetch="https://gitlab.com/project-404/"
+          revision="vito" />
+
+  <remote  name="p404-devices"
+           fetch="https://github.com/P404-Devices/"
+           revision="vito" />
+
+  <!-- 404 -->
+  <include name="404.xml"/>
+  <include name="obsolete.xml"/>
+
+</manifest>

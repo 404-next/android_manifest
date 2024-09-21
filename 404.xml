@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device -->
+  <project path="device/404/sepolicy" name="android_device_404_sepolicy" remote="404" />
+
+  <!-- Hardware -->
+  <project path="hardware/404/interfaces" name="android_hardware_404_interfaces" remote="404" />
+
+  <!-- Manifest -->
+  <project path="manifest" name="android_manifest" remote="404" />
+
+  <!-- Vendor -->
+  <project path="vendor/404" name="android_vendor_404" remote="404" />
+  <project path="vendor/overlays/404" name="android_vendor_overlays_404" remote="404" />
+  <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="404" />
+  <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="404" revision="disabled" />
+
+</manifest>
